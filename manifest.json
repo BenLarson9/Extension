@@ -1,0 +1,20 @@
+{
+	"manifest_version": 3,
+	"name": "Pagedit v3",
+	"version": "3",
+	"description": "",
+	"icons": {"16": "logo.png",
+		  "48": "logo.png"},
+	
+
+	"content_scripts": [{
+		/*"js": ["runnable_extension_editor.js"],*/
+		"css": ["run.css"],
+		"matches": ["https://www.foxnews.com/*"]
+	}],
+	"action":{
+		"default_popup": "index.html",
+		"default_title": "Latest Report"
+	}
+
+}
