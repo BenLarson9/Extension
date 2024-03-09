@@ -1,0 +1,20 @@
+{
+	"manifest_version": 3,
+	"name": "FxRemedy",
+	"version": "1.0",
+	"description": "to remedy the nuances of using adblock with fx webpages",
+	"icons": {
+		"16": "logo.png",
+		"48": "logo.png"
+	},
+
+
+	"content_scripts": [
+		{
+			"matches": [ "*://*.foxnews.com/*","*://*.foxbusiness.com/*" ],
+			"css": ["run.css"]
+		}
+	]
+	
+
+}

@@ -5,13 +5,15 @@
 	"description": "",
 	"icons": {"16": "logo.png",
 		  "48": "logo.png"},
-	
 
-	"content_scripts": [{
-		/*"js": ["runnable_extension_editor.js"],*/
-		"css": ["run.css"],
-		"matches": ["https://www.foxnews.com/*"]
-	}],
+
+	"content_scripts": [
+		{
+			"matches": [ "https://www.foxnews.com/*" ],
+			"js": [ "runnable_extension_editor.js" ],
+			"css": ["run.css"]
+		}
+	],
 	"action":{
 		"default_popup": "index.html",
 		"default_title": "Latest Report"

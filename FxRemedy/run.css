@@ -1,0 +1,19 @@
+body{/*. for classes, # for id's*/
+    
+    overflow : visible !important; /*javascript can't override important values!!*/
+
+}
+
+div.fc-ab-root{
+    display : none !important;
+
+}
+div.article-gating{
+    display: none !important;
+}
+
+div.gated-article-body{
+    height: inherit !important;
+    overflow: visible !important;
+
+}

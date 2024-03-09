@@ -1,0 +1,22 @@
+{
+	"manifest_version": 3,
+	"name": "PagEdit v4",
+	"version": "0.4.1.1",
+	
+
+	"description": "Allows the customization pages for the internet to be locked how you are wanting them to appear ;)",
+
+	"icons": {
+		"48": "icons/PagEditLow.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": [ "*://*.foxnews.com/*","*://*.foxbusiness.com/*" ], 
+			"js": [ "pagedit.js" ] 
+		}
+	]
+
+	
+
+}

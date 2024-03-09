@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "PagEdit",
+	"version": "0.1.2",
+	
+
+	"description": "Allows the customization pages for the internet to be locked how you are wanting them to appear ;)",
+
+	"icons": {
+		"48": "icons/PagEditLow.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": [ "*://*.mozilla.org/*" ],
+			"js": [ "pagedit.js" ]
+		}
+	],
+
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "pagedit@example.com"
+		}
+	}
+
+}
