@@ -5,9 +5,11 @@ body{/*. for classes, # for id's*/
 }
 
 div.fc-ab-root{
-    display : none !important;
+    display: none !important;
 
 }
+
+
 div.article-gating{
     display: none !important;
 }
