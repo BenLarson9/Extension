@@ -1,0 +1,7 @@
+.is-success{
+    color: lawngreen;
+}
+.is-danger{
+    color: orangered;
+    font-size: 32px;
+}

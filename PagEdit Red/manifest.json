@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
-	"name": "Pagedit v3",
-	"version": "3",
+	"name": "Pagedit Red",
+	"version": "1.0.0",
 	"description": "",
 	"icons": {"16": "logo.png",
 		  "48": "logo.png"},
@@ -15,7 +15,7 @@
 		}
 	],
 	"action":{
-		"default_popup": "index.html",
+		"default_popup": "popup.html",
 		"default_title": "Latest Report"
 	}
 
