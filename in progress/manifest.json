@@ -3,13 +3,13 @@
 	"name": "Pagedit Red",
 	"version": "1.0.0",
 	"description": "",
-	"icons": {"16": "logo.png",
+	"icons": {"16": "logodef.png",
 		  "48": "logo.png"},
 
 
 	"content_scripts": [
 		{
-			"matches": [  "https://www.google.com/" ],
+			"matches": [ "*://*.google.com/" ],
 			"js": [ "script.js" ],
 			"css": [ "run.css" ]
 

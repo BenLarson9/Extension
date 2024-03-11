@@ -1,6 +1,6 @@
 document.body.style.backgroundColor = "yellow";
-var button = document.getElementById("button1");
-button.style.visibility = "visible";
+var button = document.createElement("button1");
+document.body.appendChild(button);
 
 
 
