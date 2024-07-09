@@ -1,0 +1,19 @@
+div.q-flex {
+
+    display: none !important;
+
+}
+
+div.q-box {
+
+    filter: none !important;
+
+}
+
+body{
+
+    overflow: visible !important;
+}
+
+
+/*qu-alignItems--center qu-justifyContent--center qu-overflow--hidden qu-zIndex--blocking_wall*/

@@ -9,11 +9,11 @@
 
 
 
-"permissions": ["activeTab", "declarativeContent", "storage", "<all_urls>"],
+"permissions": ["activeTab", "declarativeContent", "storage"/*, "<all_urls>"*/],
 
 "content_scripts": [
     {	
-	"matches": ["<all_urls>"],
+	"matches": ["https://www.quora.com/*"],
 
 	"css": ["css1.css"],
 
