@@ -1,0 +1,33 @@
+<html>
+<body>
+<div>
+<p id="text" onclick="clea()"></p>
+<a id="b1" class="buttons" style.border="1px" onclick="run()">Button</a>
+
+
+
+
+</div>
+</body>
+
+<script>
+	function run(){
+		/*const t=document.getElementById("text");
+		if(t.length > 0 && t.length != "undefined"){clea();}
+		else{*/
+
+		document.getElementById("text").innerHTML= "There is text here now";
+		document.getElementById("b1").setAttribute("onclick", "clea()");
+		
+		/*const t2 = document.createElement("p");
+		//t2.innerHTML=t.length;
+		document.appendChild(t2);
+		document.getElementById("text").innerHTML+="t.length";
+		}*/
+	}
+	function clea(){
+		document.getElementById("text").innerHTML= "";
+		document.getElementById("b1").setAttribute("onclick", "run()");
+	}
+</script>
+</html>
